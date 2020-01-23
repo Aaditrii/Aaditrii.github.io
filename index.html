@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="aaditri.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ACADEMICS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>KNOW MORE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ACADEMICS</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">KNOW MORE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span>Aaditri Gupta.</h1>
+    <p>And I believe and achieve.....</p>
+    <img src="aaditri12.jpeg" alt="aaditri" class="w3-image img-rounded" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello! I am Aaditri Gupta from Chitkara University doing B.E in computer science.Being a student and an everyday learner, my key practices for daily life is get up,brush myself and my teeth and code!. <strong>I am a very passionate learner who feels joy in learning something new every day</strong>. I believe in doing something small or big than doing nothing. Apart from academics, I love to play cricket, do skating, dancing, listening songs, watching movies, reading novels, writing short stories and etc and etc.. I am basically the resident of Paonta Sahib which is also called <strong>Guru ki Nagri</strong> located in HIMACHAL PRADESH.I have three more members in my family. My mother's name is Reeta Gupta and she is currently giving her services as post master, Majra, Himachal Pradesh. My father's name is Nikhil Gupta and he is a business man. My brother's name is Abhinav Gupta and he is currently studying.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Academics</h3>
+     <div style="overflow-x:auto;">
+  <table class="table table-bordered" style="width:800px;" align="center">
+    <thead>
+      <tr>
+        <th>Qualification</th>
+        <th>Organisation/Board</th>
+        <th>Percentage/c.g.p.a</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>10<sup>th</sup></td>
+        <td>Guru Nanak Mission Public School,Paonta Sahib (C.B.S.E)</td>
+        <td>87.4 %</td>
+      </tr>
+      <tr>
+        <td>12<sup>th</sup></td>
+        <td>Guru Nanak Mission Public School,Paonta Sahib (C.B.S.E)</td>
+        <td>91.2 %</td>
+      </tr>
+      <tr>
+        <td>B.E (current)</td>
+        <td>Chitkara University,Rajpura</td>
+        <td>9.58</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    
+    <!-- display skills -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">My skills</li>
+          <li class="w3-padding-16">HTML5,CSS3,JAVASCRIPT</li>
+          <li class="w3-padding-16">BOOTSTRAP,Nodejs,Angular</li>
+          <li class="w3-padding-16">pl/sql,MongoDB</li>
+          <li class="w3-padding-16">Github(commands)</li>
+           <li class="w3-padding-16">JQuery</li>
+            <li class="w3-padding-16">scripting,linux</li>
+            <li class="w3-padding-16">C,C++,JAVA,Python</li>
+             <li class="w3-padding-16">Github(commands)</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Familier Softwares to me</li>
+          <li class="w3-padding-16">Autocad</li>
+          <li class="w3-padding-16">Chemsketch,Umlet</li>
+          <li class="w3-padding-16">IntelliJ,Codeblocks</li>
+          <li class="w3-padding-16">Oracle 11g</li>
+          <li class="w3-padding-16">Vim</li>
+          <li class="w3-padding-16">Cisco Packet Tracer</li>
+          <li class="w3-padding-16">NI Multisim</li>
+          <li class="w3-padding-16">Nano</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Projects</h3>  
+    <a href="http://thegirlyworld.com"><img src="girly.png" alt="project1" class="w3-left w3-rounded w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-margin-right">1. THE GIRLYWORLD(click on the logo).</span></p>
+    <p>Today women empowerment is a big topic to discuss.There are many cases of voilence against girls.So to stop them and aware all about it I made a decent website called "thegirlyworld" which is a drop of water int hte ocean of women empowerment.I also 
+    add the importance of coding for women here.</p><br/>
+    
+    <a href="https://github.com/Aaditrii"><img src="port1.jpg" alt="project2" class="w3-left w3-rounded w3-margin-right" style="width:80px"></a>
+      <p><span class="w3-large w3-margin-right">2. Git hub(click on the logo)</span></p>
+    <p>I have worked with several programs and languages so I made significant repositories showing my work in C,C++(datastructures & algorithms),Java,Python and Web.Also I made a guess the hand game which signifies which hand contains stone(available on github).</p>
+    <br/>
+    <a href="https://github.com/Aaditrii"><img src="port2.jpg" alt="project3" class="w3-left w3-rounded w3-margin-right" style="width:80px"></a>
+      <p><span class="w3-large w3-margin-right">3. Clucene (C++) (click on the logo)</span></p>
+    <p>I opened a pull request for the Clucene contribution work on git hub in which when we typed in a query string like 'ABC' the earlier program converted the query in lower case letters , so I fixed this issue. I have also opened several other pull 
+    request and I am also the part of many communities on github.</p><br/>
+    <a href="https://aaditrii.github.io/"><img src="study.jpg" alt="project3" class="w3-left w3-rounded w3-margin-right" style="width:80px"></a>
+      <p><span class="w3-large w3-margin-right">4. My Portfolio (click on the logo)</span></p>
+    <p>My resume made on html5,css3,javascript,mongoDB and some external sources</p>
+     <a href="https://github.com/Aaditrii"><img src="taylor.jpg" alt="project3" class="w3-left w3-rounded w3-margin-right" style="width:80px"></a>
+     <p><span class="w3-large w3-margin-right">5. My work on Apple Tunes API (click on the logo)</span></p>
+     <p>This website simply contains my work done on apple tunes api. This basically gives you the result in the form of a trailer video of the international music artists. Normally to check out a song video we sometimes need to play the full video on you tube.But here , you just get a glimpse of the video to decide whether to listen in future or not.Its mobile compatible too..</p>
+    <!-- End About Section -->
+    </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Certificates</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="c1.png" style="width:100%">
+        <figcaption>Semrush Certification</figcaption><br/><br/>
+        <img src="c2.png" style="width:100%">
+        <figcaption>MyCaptain certification for AI</figcaption><br/><br/>
+        <img src="c3.png" style="width:100%">
+        <figcaption>Wheebox National Employbility Certificate</figcaption><br/><br/>
+      </div>
+
+      <div class="w3-half">
+        <img src="google.png" style="width:100%">
+        <figcaption>Google Digital Unlocked Certification</figcaption><br/><br/>
+        <img src="research.jpeg" style="width:100%">
+        <figcaption>ranked first by CHITKARA NOVATE for best resarch paper on "WIRELESS NETWORK AND SECURITY METHODS"</figcaption>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 8629848366</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><a style="text-decoration:none;color:grey;" href="mailto:aaditrigupta1999@gmail.com">Email me</a></p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+     Follow me<br/>
+<a href="https://www.linkedin.com/in/aaditri-gupta-41784b18a/">
+<i class="fa fa-linkedin w3-hover-opacity"></i></a>
+<a href="https://github.com/Aaditrii">
+<i class="fa fa-github w3-hover-opacity"></i></a>
+
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
